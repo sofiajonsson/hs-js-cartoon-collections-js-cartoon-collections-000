@@ -1,17 +1,45 @@
-var names = ["Doc", "Dopey", "Bashful", "Grumpy"]
-
+//Answer #1
+var dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
 function dwarfRollCall(dwarves) { 
-  dwarves.push(names);
-  return `1. ${names[1]} 2. ${names[3]} 3. ${names[2]}`;
+ 
+let dwarfNames = [];
+for (var i=0; i<dwarves.length; i++){
+  dwarfNames.push((i+1) + '. '+ dwarves[i]+ " ");
 }
-
-var planets = ["earth", "wind", "fire", "water", "heart"]
+return dwarfNames.join("");
+}
+//Answer #2
+var planeteerCalls = ["earth", "wind", "fire", "water", "heart"]
 function summonCaptainPlanet(planeteerCalls){
-  planeteerCalls.push(planets.toUpperCase);
+  let planets= [];
+ for( let i =0; i<planeteerCalls.length; i++) {
+  planets.push(`${planeteerCalls[i].toUpperCase()}!`);
 }
-
+return planets;
+}
+//Answer #3
 function longPlaneteerCalls(words) {
+  let i=0;
+  i<words.length;
+  i++;
+  if (words.length> 4)
+  return true;
+  else if (words.length>4);{
+  return false;
+}
 }
 
+//Answer #4
 function findTheCheese (foods) {
+let queso= ["cheddar", "gouda", "camembert"];
+  for(let i=0; i<queso.length;i++){
+var cheeseTypes = foods.includes(queso[i])
+  if(cheeseTypes===true){
+  return queso[i];
+  }
 }
+  return 'no cheese!';
+}
+
+  
+

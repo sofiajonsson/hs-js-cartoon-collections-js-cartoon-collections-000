@@ -8,6 +8,8 @@ for (var i=0; i<dwarves.length; i++){
 }
 return dwarfNames.join("");
 }
+
+
 //Answer #2
 var planeteerCalls = ["earth", "wind", "fire", "water", "heart"]
 function summonCaptainPlanet(planeteerCalls){
@@ -17,6 +19,8 @@ function summonCaptainPlanet(planeteerCalls){
 }
 return planets;
 }
+
+
 //Answer #3
 function longPlaneteerCalls(words) {
   let i=0;

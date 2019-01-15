@@ -22,9 +22,10 @@ function longPlaneteerCalls(words) {
   let i=0;
   i<words.length;
   i++;
-  if (words.length> 4)
+  if (words.length> 4){
   return true;
-  else if (words.length>4);{
+}
+  else {//if (words.length>4);{
   return false;
 }
 }

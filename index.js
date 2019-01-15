@@ -29,7 +29,11 @@ function longPlaneteerCalls(words) {
   if (words.length> 4){
   return true;
 }
+<<<<<<< HEAD
   else {
+=======
+  else {//if (words.length>4);{
+>>>>>>> 211e9ab1d3268c5685b85447472881507335dd4e
   return false;
 }
 }

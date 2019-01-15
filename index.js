@@ -25,7 +25,7 @@ function longPlaneteerCalls(words) {
   if (words.length> 4){
   return true;
 }
-  else {//if (words.length>4);{
+  else {
   return false;
 }
 }
